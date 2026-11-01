@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  This file is part of AndroidIDE.
+  ~
+  ~  AndroidIDE is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  AndroidIDE is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+  <!-- Asset Studio -->
+  <string name="asset_studio_title">素材工作室</string>
+  <string name="asset_studio_subtitle">图形与图标制作器</string>
+  <string name="asset_studio_launch">启动工作室</string>
+  <string name="asset_studio_create_drawable">创建图形</string>
+  <string name="asset_studio_create_icon">创建图标</string>
+  <string name="asset_studio_import_image">导入图片</string>
+  <string name="asset_studio_recent_assets">最近素材</string>
+  <string name="asset_studio_quick_actions">快捷操作</string>
+  <string name="asset_studio_default_path">res/drawable</string>
+  <string name="asset_studio_launch_description">打开完整的素材工作室界面</string>
+
+  <!-- Sub-Module Maker -->
+  <string name="sub_module_maker_title">子模块生成器</string>
+  <string name="sub_module_maker_subtitle">为你的项目创建新的子模块</string>
+  <string name="sub_module_configuration">模块配置</string>
+  <string name="sub_module_language">编程语言</string>
+  <string name="sub_module_kotlin">Kotlin</string>
+  <string name="sub_module_java">Java</string>
+  <string name="sub_module_name_hint">输入模块名称（例如 feature、utils）</string>
+  <string name="sub_module_name_valid">模块名称可用</string>
+  <string name="sub_module_name_invalid">模块名称不可用</string>
+  <string name="sub_module_create">创建模块</string>
+  <string name="sub_module_created_success">模块“%1$s”创建成功！</string>
+  <string name="sub_module_created_error">创建模块失败：%1$s</string>
+  <string name="sub_module_info_title">关于子模块</string>
+  <string name="sub_module_info_description">子模块可以把项目拆分成更小、更易维护的组件。每个模块都可以拥有自己的依赖和构建配置。</string>
+
+  <!-- Terminal -->
+  <string name="title_terminal">终端</string>
+  <string name="terminal_bstab">终端</string>
+  <string name="terminal_new_session">新建终端</string>
+  <string name="terminal_close_session">关闭终端</string>
+  <string name="terminal_empty_state">暂无终端会话</string>
+  <string name="terminal_empty_message">当前没有打开的终端会话，新建一个即可开始使用。</string>
+  <string name="terminal_create_first">新建终端</string>
+
+  <string name="edit">编辑</string>
+
+  <!-- Android Template Creator (new project wizard) -->
+  <string name="creating_template_project">正在创建%1$s…</string>
+  <string name="template_created_success">项目已创建：%1$s</string>
+  <string name="template_created_error">创建项目失败：%1$s</string>
+  <string name="atc_auto">自动</string>
+  <string name="atc_ndk_label">NDK：%1$s</string>
+  <string name="atc_project_exists_title">项目已存在</string>
+  <string name="atc_project_exists_message">此位置已存在名为“%1$s”的项目。</string>
+  <string name="atc_invalid_location_title">保存位置无效</string>
+  <string name="atc_invalid_location_message">游戏项目必须保存在 Android Code Studio 的主目录下才能正常工作。</string>
+  <string name="atc_auto_switch">自动切换</string>
+  <string name="atc_checking_ndk_title">正在检查 NDK…</string>
+  <string name="atc_checking_ndk_message">正在校验你的 NDK 安装，请稍候。</string>
+  <string name="atc_ndk_invalid_version">检测到的最高 NDK 版本（%1$s）无效或已损坏。</string>
+  <string name="atc_no_ndk_title">未找到 NDK</string>
+  <string name="atc_no_ndk_message">尚未安装任何 NDK 版本。</string>
+  <string name="atc_select_ndk_title">选择 NDK 版本</string>
+  <string name="atc_invalid_ndk_toast">NDK 无效：%1$s</string>
+  <string name="atc_select_cmake_title">选择 CMake 版本</string>
+  <string name="atc_cmake_selected_toast">已选择 CMake %1$s</string>
+  <string name="atc_invalid_cmake_toast">CMake 无效：%1$s</string>
+  <string name="atc_cmake_not_found_title">未找到 CMake</string>
+  <string name="atc_cmake_not_found_message">未找到可用的 CMake，请先在 IDE 设置中安装 CMake。</string>
+
+  <!-- Template names shown on the template cards -->
+  <string name="template_no_activity">空白项目</string>
+  <string name="template_basic_activity">基础 Activity</string>
+  <string name="template_empty_activity">空 Activity</string>
+  <string name="template_compose_activity">Compose Activity</string>
+  <string name="template_bottom_navigation">底部导航</string>
+  <string name="template_navigation_drawer">侧滑导航</string>
+  <string name="template_responsive_activity">自适应 Activity</string>
+  <string name="template_game_activity">游戏 Activity</string>
+  <string name="template_native_cpp">原生 C++</string>
+  <string name="template_xposed_module">Xposed 模块</string>
+
+
+  <!-- Strings extracted from the layouts (previously hardcoded) -->
+  <string name="h_add_remote">添加远程</string>
+  <string name="h_ai_file_write_permissions">AI 文件写入权限</string>
+  <string name="h_ai_provider">AI 提供商</string>
+  <string name="h_alpha">透明度</string>
+  <string name="h_appearance">外观</string>
+  <string name="h_apply">应用</string>
+  <string name="h_apply_changes">应用更改</string>
+  <string name="h_ask_ai_anything">向 AI 提出任何问题…</string>
+  <string name="h_auto_backup_files_before_writing">写入前自动备份文件</string>
+  <string name="h_automatically_switch_provider_on_errors">出错时自动切换提供商</string>
+  <string name="h_auto_switch_provider">自动切换提供商</string>
+  <string name="h_background_color">背景颜色</string>
+  <string name="h_backup_my_project">备份我的项目</string>
+  <string name="h_base_url">基础地址</string>
+  <string name="h_blue">蓝</string>
+  <string name="h_branch_name">分支名称</string>
+  <string name="h_build_variant">构建变体</string>
+  <string name="h_cancel">取消</string>
+  <string name="h_change">更改</string>
+  <string name="h_checkout">检出</string>
+  <string name="h_choose_an_image_or_xml_vector_to_create">选择图片或 XML 矢量图来生成应用图标</string>
+  <string name="h_choose_color">选择颜色</string>
+  <string name="h_circle">圆形</string>
+  <string name="h_clear">清空</string>
+  <string name="h_clear_saved_credentials">清除已保存的凭据</string>
+  <string name="h_clone_repository">克隆仓库</string>
+  <string name="h_code_completion">代码补全</string>
+  <string name="h_code_preview">代码预览</string>
+  <string name="h_color">颜色</string>
+  <string name="h_color_presets">预设颜色</string>
+  <string name="h_commit">提交</string>
+  <string name="h_commit_history">提交历史</string>
+  <string name="h_commit_message">提交信息</string>
+  <string name="h_compile_sdk">编译 SDK</string>
+  <string name="h_configure_local_llm">配置本地 LLM</string>
+  <string name="h_create_your_first_terminal_session">创建你的第一个终端会话</string>
+  <string name="h_credentials">凭据</string>
+  <string name="h_credentials_optional">凭据（可选）</string>
+  <string name="h_current_color">当前颜色</string>
+  <string name="h_custom">自定义</string>
+  <string name="h_delete">删除</string>
+  <string name="h_destination">目标目录</string>
+  <string name="h_discard">放弃</string>
+  <string name="h_download">下载</string>
+  <string name="h_dynamic_color">动态取色</string>
+  <string name="h_edit_icon">编辑图标</string>
+  <string name="h_edit_user_config">编辑用户配置</string>
+  <string name="h_edit_version_and_sdk">编辑版本与 SDK</string>
+  <string name="h_email">邮箱：</string>
+  <string name="h_enable_ai_file_writing">允许 AI 写入文件</string>
+  <string name="h_enable_ai_powered_code_suggestions">启用 AI 代码建议</string>
+  <string name="h_fetch">获取</string>
+  <string name="h_file_name">文件名</string>
+  <string name="h_file_tree">文件树</string>
+  <string name="h_files_to_be_modified">将要修改的文件</string>
+  <string name="h_foreground_scale">前景缩放</string>
+  <string name="h_generate_icons">生成图标</string>
+  <string name="h_git">Git</string>
+  <string name="h_git_user_configuration">Git 用户配置</string>
+  <string name="h_goto_my_project">前往我的项目</string>
+  <string name="h_green">绿</string>
+  <string name="h_hex_color">十六进制颜色</string>
+  <string name="h_hex_color_e_g_ff6200ee">十六进制颜色（例如 #FF6200EE）</string>
+  <string name="h_hide_extra_keys_toolbar">隐藏额外按键工具栏</string>
+  <string name="h_icon_name">图标名称</string>
+  <string name="h_icon_settings">图标设置</string>
+  <string name="h_import_project">导入项目</string>
+  <string name="h_initialize_a_new_repository_clone_an_exi">新建仓库、克隆现有仓库，或打开已有仓库</string>
+  <string name="h_initialize_repository">初始化仓库</string>
+  <string name="h_initialize_terminal">初始化终端</string>
+  <string name="h_load_xml">加载 XML</string>
+  <string name="h_loading">正在加载…</string>
+  <string name="h_m3_icons">M3 图标</string>
+  <string name="h_min_sdk">最低 SDK</string>
+  <string name="h_model_agent">模型 / 代理</string>
+  <string name="h_model_name">模型名称</string>
+  <string name="h_model">模型：</string>
+  <string name="h_modification_summary">修改概要</string>
+  <string name="h_modified">已修改</string>
+  <string name="h_modifying">正在修改…</string>
+  <string name="h_name">名称：</string>
+  <string name="h_new_branch">新建分支</string>
+  <string name="h_no_changes_detected">未检测到改动</string>
+  <string name="h_no_commits_yet">暂无提交</string>
+  <string name="h_no_recent_assets">暂无最近素材</string>
+  <string name="h_no_remotes_configured_nadd_a_remote_to_p">尚未配置远程仓库\n添加远程仓库后才能推送 / 拉取</string>
+  <string name="h_no_repository_found">未找到仓库</string>
+  <string name="h_no_terminal_session">暂无终端会话</string>
+  <string name="h_not_saved">未保存</string>
+  <string name="h_not_set">未设置</string>
+  <string name="h_open_existing_repository">打开现有仓库</string>
+  <string name="h_password">密码</string>
+  <string name="h_password_token">密码 / 令牌</string>
+  <string name="h_please_wait">请稍候…</string>
+  <string name="h_preview">预览</string>
+  <string name="h_project_name">项目名称</string>
+  <string name="h_project_settings">项目设置</string>
+  <string name="h_provider">提供商：</string>
+  <string name="h_pull">拉取</string>
+  <string name="h_push">推送</string>
+  <string name="h_ready_to_assist_you">随时为你服务</string>
+  <string name="h_red">红</string>
+  <string name="h_refresh">刷新</string>
+  <string name="h_remember_credentials">记住凭据</string>
+  <string name="h_remote_name_e_g_origin">远程名称（例如 origin）</string>
+  <string name="h_remote_operations">远程操作</string>
+  <string name="h_remote_url">远程地址</string>
+  <string name="h_remove">移除</string>
+  <string name="h_repository_url">仓库地址</string>
+  <string name="h_require_confirmation_before_writing">写入前需要确认</string>
+  <string name="h_rounded">圆角</string>
+  <string name="h_rounded_corners">圆角半径</string>
+  <string name="h_save">保存</string>
+  <string name="h_save_and_copy">保存并复制</string>
+  <string name="h_save_username_and_password_for_push_pull">保存用户名和密码用于推送 / 拉取</string>
+  <string name="h_search_icons">搜索图标…</string>
+  <string name="h_select_image">选择图片</string>
+  <string name="h_send">发送</string>
+  <string name="h_shape">形状</string>
+  <string name="h_source">来源</string>
+  <string name="h_square">方形</string>
+  <string name="h_stage">暂存</string>
+  <string name="h_stage_all">全部暂存</string>
+  <string name="h_status">状态</string>
+  <string name="h_status_2">状态：</string>
+  <string name="h_summary">概要</string>
+  <string name="h_tab">制表符</string>
+  <string name="h_target_sdk">目标 SDK</string>
+  <string name="h_text_size">文字大小</string>
+  <string name="h_undo">撤销</string>
+  <string name="h_unstage">取消暂存</string>
+  <string name="h_update">更新</string>
+  <string name="h_update_dependency">更新依赖</string>
+  <string name="h_updating_dependencies">正在更新依赖</string>
+  <string name="h_user">用户</string>
+  <string name="h_user_email">用户邮箱</string>
+  <string name="h_user_name">用户名</string>
+  <string name="h_username">用户名</string>
+  <string name="h_version_code">版本号</string>
+  <string name="h_version_name">版本名称</string>
+  <string name="h_warning_enabling_file_writing_allows_ai">警告：开启文件写入后，AI 将可以修改你的项目文件。应用前请务必检查改动。</string>
+  <string name="h_what_would_you_like_me_to_do">需要我做什么？</string>
+
+
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  This file is part of AndroidCodeStudio.
+  ~
+  ~  AndroidCodeStudio is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  AndroidCodeStudio is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<!-- Thumbnail for the "Xposed Module" template card. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:width="108dp"
+  android:height="108dp"
+  android:viewportWidth="108"
+  android:viewportHeight="108">
+
+  <!-- Dark rounded background -->
+  <path android:pathData="M26,4 L82,4 A22,22 0 0 1 104,26 L104,82 A22,22 0 0 1 82,104 L26,104 A22,22 0 0 1 4,82 L4,26 A22,22 0 0 1 26,4 Z">
+    <aapt:attr name="android:fillColor">
+      <gradient
+        android:endX="104"
+        android:endY="104"
+        android:startX="4"
+        android:startY="4"
+        android:type="linear">
+        <item
+          android:color="#FF1E2E38"
+          android:offset="0" />
+        <item
+          android:color="#FF0B1114"
+          android:offset="1" />
+      </gradient>
+    </aapt:attr>
+  </path>
+
+  <!-- Faint outer ring -->
+  <path
+    android:pathData="M54,16 A38,38 0 0 1 54,92 A38,38 0 0 1 54,16"
+    android:fillColor="#00000000"
+    android:strokeWidth="2"
+    android:strokeColor="#3334D3B0"
+    android:strokeLineCap="round" />
+
+  <!-- The "bridge" of the Xposed logo: two crossing strokes -->
+  <path
+    android:pathData="M36,36 L72,72"
+    android:strokeWidth="13"
+    android:strokeColor="#FF2FD6A6"
+    android:strokeLineCap="round" />
+
+  <path
+    android:pathData="M72,36 L36,72"
+    android:strokeWidth="13"
+    android:strokeColor="#FF17A98C"
+    android:strokeLineCap="round" />
+
+  <!-- Circuit traces reaching out from the four ends of the bridge -->
+  <path
+    android:pathData="M36,36 L27,27 M72,36 L81,27 M36,72 L27,81 M72,72 L81,81"
+    android:fillColor="#00000000"
+    android:strokeWidth="3"
+    android:strokeColor="#4D2FD6A6"
+    android:strokeLineCap="round" />
+
+  <!-- Hook nodes at the end of each trace -->
+  <path
+    android:pathData="M27,27 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+    android:fillColor="#FF9BF7DC" />
+  <path
+    android:pathData="M81,27 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+    android:fillColor="#FF9BF7DC" />
+  <path
+    android:pathData="M27,81 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+    android:fillColor="#FF9BF7DC" />
+  <path
+    android:pathData="M81,81 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+    android:fillColor="#FF9BF7DC" />
+
+</vector>
